@@ -1,3 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  border: 1px solid steelblue;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.title{
+  text-align: center;
+}
+
+ul{
+  margin: 10px 0;
+}
+
+
+
+ul li{
+  margin: 10px 30px;
+  text-decoration: none;
+  display: inline;
+}
+
+
+
 .App {
   text-align: center;
 }
